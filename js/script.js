@@ -1,13 +1,5 @@
-$( "document" ).ready(function() { //this helps your jQuery to work. Write all of your JS code in this function.
+$( "document" ).ready(function() { 
 $("#button").click(function(){
-    let userInput=$("input").val();
-$(".road").html(userInput);
-});
-
-
-
-  
-  
-  
-  
+let userInput = $("#input").val();
+$(".road").text(userInput);
 });
